@@ -1,4 +1,4 @@
-package hr2;
+package hr3;
 // import hr1;
 import java.io.*;
 import java.math.*;
@@ -17,18 +17,20 @@ public class testht {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		hr2 test = new hr2();
-		
-		//System.out.println(test.simpleArraySum[1]);
-		
-		/*int num_items = 8;
-		int ar_sum = 0; 
-		
-		 for (int arItr = 0; arItr < num_items; arItr++) { 
-		  		ar_sum += */
-		  		//return(ar[arItr]);
-		  //int arItem = Integer.parseInt(arItems[arItr].trim()); 
-		  //ar[arItr] = arItem; 
+		//hr2 test = new hr2();
+		//int n = a.length; 
+		int n = 4;
+    	int[] arr2 = new int[n];
+    	//int last = 0;
+    	for (int i = 0; i < n; i++) {
+            //int arrItem = Integer.parseInt(arrItems[i]);
+    		//arr[n] = last;
+    		arr2[i] = 4;
+    		//last = arr2[n];
+    		
+            //arr[i] = arrItem;
+        }
+    	System.out.println(Arrays.toString(arr2));
 		  
 	  }
 		
